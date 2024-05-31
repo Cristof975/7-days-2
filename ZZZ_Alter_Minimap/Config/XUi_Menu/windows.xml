@@ -1,0 +1,32 @@
+<configs>
+	<insertAfter xpath="/windows/window[@name='optionsMenu']//mainmenubutton[@name='btnProfiles']">
+		<mainmenubutton name="btnMinimap" pivot="center" width="400" height="50" caption_key="Minimap"/>
+	</insertAfter>
+	<append xpath="/windows">
+		<window name="optionsMinimap" anchor="CenterCenter" pos="-700,425" width="1400" height="780" controller="OptionsMinimap, Minimap" cursor_area="true">
+			<panel name="header" pos="0,0" height="43" depth="1" backgroundspritename="ui_game_panel_header" bordercolor="[black]" borderthickness="3">
+				<label style="header.name" pos="6,-6" width="750" text_key="Minimap Settings"/>
+			</panel>
+			<panel name="content" pos="0,-35" height="650" depth="1" backgroundcolor="[mediumGrey]" bordercolor="[black]" borderthickness="3" pivot="topleft">
+				<grid pos="8,-20" rows="14" cell_width="700" cell_height="45" repeat_content="false" arrangement="vertical">
+				<minimapoption _name="MinimapEnabled" label="Minimap Enabled" type="ComboBoxBool" localization_prefix="xuiComboOnOff" width="900"/>
+				<minimaptextoption _name="minimapPositionX" label="Minimap Position X" width="900"/>
+				<minimaptextoption _name="minimapPositionY" label="Minimap Position Y" width="900"/>
+				<minimaptextoption _name="minimapScale" label="Minimap Scale" width="900"/>
+				<minimapoption _name="minimapNavObjects" label="Show NavObjects" type="ComboBoxBool" localization_prefix="xuiComboOnOff" width="900"/>
+				<minimaptextoption _name="minimapNavObjectsScale" label="NavObjects Size" width="900"/>
+				<minimapoption _name="minimapZombies" label="Show Zombies" type="ComboBoxBool" localization_prefix="xuiComboOnOff" width="900"/>
+				<minimapoption _name="minimapCompass" label="Minimap Compass" type="ComboBoxBool" localization_prefix="xuiComboOnOff" width="900"/>
+				<minimapoption _name="showDefaultCompass" label="Show Default Compass" type="ComboBoxBool" localization_prefix="xuiComboOnOff" width="900"/>
+				<minimapoption _name="minimapLockDirection" label="Lock Minimap Rotation" type="ComboBoxBool" localization_prefix="xuiComboOnOff" width="900"/>
+				<minimaphotkeyoption width="900"/>
+				</grid>
+			</panel>
+			<rect pos="0, -720">
+				<simplebutton name="btnBack" depth="3" pos="0, 0" width="200" height="36" font_size="32" caption_key="xuiBack" upper_case="true"/>
+				<simplebutton name="btnDefaults" depth="3" pos="12160, 0" pivot="right" width="200" height="36" font_size="32" caption_key="xuiDefaults" upper_case="true"/>
+				<simplebutton name="btnApply" depth="3" pos="1400, 0" pivot="right" width="200" height="36" font_size="32" caption_key="xuiApply" upper_case="true"/>
+			</rect>
+		</window>
+	</append>
+</configs>

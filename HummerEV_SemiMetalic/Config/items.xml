@@ -1,0 +1,56 @@
+<configs>
+	<append xpath="/items">
+		
+
+		<item name="vehicleHummerEVplaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="CustomIcon" value="HEVRICON" />
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,canHaveCosmetic"/>
+			<property name="Meshfile" value="#@modfolder:Resources/HEVR.unity3d?HummerEV"/>
+			<property name="EconomicValue" value="35000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="vehicleHummerEV"/>
+				<property name="VehicleSize" value="4.7, 4.8, 5"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="10000"/>
+			</effect_group>
+		</item>
+
+		<item name="vehicleHummerEVNRplaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="CustomIcon" value="HEVNRICON" />
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,canHaveCosmetic"/>
+			<property name="Meshfile" value="#@modfolder:Resources/HEVNR.unity3d?HummerEV"/>
+			<property name="EconomicValue" value="35000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="vehicleHummerEVNR"/>
+				<property name="VehicleSize" value="4.7, 4.8, 5"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="10000"/>
+			</effect_group>
+		</item>
+
+		
+
+		
+
+
+		<item name="Hummer EV Body">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="UnlockedBy" value="craftingVehicles"/>
+			<property name="CustomIcon" value="HEVBODY" />
+			<property name="SellableToTrader" value="True"/>
+			<property name="DescriptionKey" value="Hummer Ev  Body"/>
+			<property name="EconomicValue" value="9000"/>
+		</item>
+
+
+
+	</append>
+</configs>

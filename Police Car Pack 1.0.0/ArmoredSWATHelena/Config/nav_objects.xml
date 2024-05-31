@@ -1,0 +1,13 @@
+<configs>
+	<append xpath="/nav_object_classes">
+		<nav_object_class name="SwatMap" extends="bicycle">
+			<property name="requirement_type" value="IsVehicleOwner"/>
+			<compass_settings>
+				<property name="sprite_name" value="BlindadoNav"/>
+			</compass_settings>
+			<onscreen_settings>
+				<property name="sprite_name" value="BlindadoNav"/>
+			</onscreen_settings>
+		</nav_object_class>
+	</append>
+</configs>

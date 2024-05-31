@@ -1,0 +1,128 @@
+﻿<configs>
+	<append xpath="/blocks">
+		<block name="autominerTemplate">
+			<property name="CreativeMode" value="None"/>
+			<property name="Tags" value="miningMachine"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Class" value="Workstation"/>
+			<property name="CanPickup" value="true"/>
+			<property name="TakeDelay" value="30"/>
+			<property name="Weight" value="0"/>
+			<property name="UnlockedBy" value="craftingHarvestingTools"/>
+			<property name="MaxDamage" value="2000"/>
+			<property name="PlacementDistance" value="25"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="AllowedRotations" value="Basic90"/>
+			<property name="Model" value="#@modfolder:Resources/craft.unity3d?oilPumpWorkbenchPrefab"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Group" value="Science,TCScience"/>
+			<property name="TraderStageTemplate" value="midTier1"/>
+			<property name="HeatMapStrength" value="5"/>
+			<property name="HeatMapTime" value="5000"/>
+			<property name="HeatMapFrequency" value="1000"/>
+			<property name="WaterFlow" value="permitted"/>
+			<property name="OpenSound" value="open_workbench"/>
+			<property name="CloseSound" value="close_workbench"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceForgedSteel" count="50" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceMechanicalParts" count="25" tag="salvageHarvest"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="WorkstationIcon" value="ui_game_symbol_miningmachine"/>
+			<property class="RepairItems">
+				<property name="resourceForgedSteel" value="50"/>
+				<property name="resourceMechanicalParts" value="25"/>
+			</property>
+		</block>
+		<block name="oilPumpjack">
+			<property name="Extends" value="autominerTemplate" param1="CustomIcon"/>
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="oilPumpjack"/>
+			</property>
+			<property name="TakeOverride" value="oilPumpjack"/>
+			<property name="AutominerCanBuildOn" value="terrOreOilDeposit"/>
+			<property name="BlockCheckOffset" value="0,-1,3"/>
+			<property name="DescriptionKey" value="oilPumpjackDesc"/>
+			<property name="Model" value="#@modfolder:Resources/craft.unity3d?oilPumpWorkbenchPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property name="MultiBlockDim" value="3,7,9"/>
+			<property name="ModelOffset" value="0,.5,0"/>
+		</block>
+		<block name="miningMachine">
+			<property name="Extends" value="autominerTemplate" param1="CustomIcon"/>
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="oilPumpjack"/>
+			</property>
+			<property name="EconomicValue" value="2000"/>
+			<property name="BlockCheckOffset" value="0,-1,3"/>
+			<property name="DescriptionKey" value="miningMachineDesc"/>
+			<property name="Model" value="#@modfolder:Resources/craft.unity3d?minerWorkbenchPrefab"/>
+			<property name="AutominerCanBuildOn" value="terrOreIron,terrOrePotassiumNitrate,terrOreLead,terrOreCoal,terrTopSoil,terrDirt,terrForestGround,terrBurntForestGround,terrStone,terrSandStone"/>
+			<property name="AutominerUpgradeTo" value="miningMachine_Iron,miningMachine_PotassiumNitrate,miningMachine_Lead,miningMachine_Coal,miningMachine_Clay,miningMachine_Clay,miningMachine_Clay,terrBurntForestGround,miningMachine_Rock,miningMachine_Rock"/>
+			<property name="BlockCheckOffset" value="0,-1,0"/>
+			<property name="MultiBlockDim" value="3,6,8"/>
+			<property name="ModelOffset" value="0,.5,0"/>
+		</block>
+		<block name="miningMachine_Iron">
+			<property name="Extends" value="miningMachine"/>
+			<property name="TakeOverride" value="miningMachine"/>
+			<property name="CreativeMode" value="None"/>
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="miningMachine_Iron"/>
+			</property>
+		</block>
+		<block name="miningMachine_PotassiumNitrate">
+			<property name="Extends" value="miningMachine"/>
+			<property name="TakeOverride" value="miningMachine"/>
+			<property name="CreativeMode" value="None"/>
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="miningMachine_PotassiumNitrate"/>
+			</property>
+		</block>
+		<block name="miningMachine_Lead">
+			<property name="Extends" value="miningMachine"/>
+			<property name="TakeOverride" value="miningMachine"/>
+			<property name="CreativeMode" value="None"/>
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="miningMachine_Lead"/>
+			</property>
+		</block>
+		<block name="miningMachine_Coal">
+			<property name="Extends" value="miningMachine"/>
+			<property name="TakeOverride" value="miningMachine"/>
+			<property name="CreativeMode" value="None"/>
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="miningMachine_Coal"/>
+			</property>
+		</block>
+		<block name="miningMachine_Clay">
+			<property name="Extends" value="miningMachine"/>
+			<property name="TakeOverride" value="miningMachine"/>
+			<property name="CreativeMode" value="None"/>
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="miningMachine_Clay"/>
+			</property>
+		</block>
+		<block name="miningMachine_Rock">
+			<property name="Extends" value="miningMachine"/>
+			<property name="TakeOverride" value="miningMachine"/>
+			<property name="CreativeMode" value="None"/>
+			<property class="Workstation">
+				<property name="Modules" value="output"/>
+				<property name="CraftingAreaRecipes" value="miningMachine_Rock"/>
+			</property>
+		</block>
+	</append>
+</configs>

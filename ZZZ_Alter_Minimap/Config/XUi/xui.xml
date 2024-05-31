@@ -1,0 +1,5 @@
+<configs>
+	<append xpath="/xui/ruleset/window_group[@name='toolbelt']">
+		<window name="windowCompassHUD" anchor="CenterCenter"/>
+	</append>
+</configs>

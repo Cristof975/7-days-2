@@ -1,0 +1,52 @@
+<configs>
+	<append xpath="/items">
+		
+
+		<item name="vehicleArmoredSWATplaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="CustomIcon" value="BlindadoIcon" />
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,canHaveCosmetic"/>
+			<property name="Meshfile" value="#@modfolder:Resources/AutoBlindado.unity3d?Blindado"/>
+			<property name="EconomicValue" value="35000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="vehicleArmoredSWAT"/>
+				<property name="VehicleSize" value="4.7, 4.8, 5"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="10000"/>
+			</effect_group>
+		</item>
+
+		<item name="vehicleArmoredSWATCustomplaceable">
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="CustomIcon" value="BlindadoIcon" />
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,canHaveCosmetic"/>
+			<property name="Meshfile" value="#@modfolder:Resources/AutoBlindadoCustom.unity3d?Blindado"/>
+			<property name="EconomicValue" value="35000"/>
+			<property class="Action1">
+				<property name="Vehicle" value="vehicleArmoredSWATCustom"/>
+				<property name="VehicleSize" value="4.7, 4.8, 5"/>
+			</property>
+			<effect_group name="Base Effects">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="10000"/>
+			</effect_group>
+		</item>
+
+		<item name="Armored SWAT Body">
+			<property name="Extends" value="vehicleWheels"/>
+			<property name="UnlockedBy" value="craftingVehicles"/>
+			<property name="CustomIcon" value="BlindadoBody" />
+			<property name="SellableToTrader" value="True"/>
+			<property name="DescriptionKey" value="Ansat Body"/>
+			<property name="EconomicValue" value="9000"/>
+			
+		</item>
+
+
+
+	</append>
+</configs>

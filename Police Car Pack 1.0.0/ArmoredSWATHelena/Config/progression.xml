@@ -1,0 +1,7 @@
+<configs>
+
+	<append xpath="//crafting_skill[@name='craftingVehicles']/display_entry[@icon='vehicle4x4TruckPlaceable']/unlock_entry/@item">,Armored SWAT Body</append>
+	<append xpath="//crafting_skill[@name='craftingVehicles']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" level="70,100" value="1" tags="Armored SWAT Body"/>
+	</append>
+</configs>

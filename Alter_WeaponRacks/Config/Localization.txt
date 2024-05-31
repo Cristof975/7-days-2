@@ -1,0 +1,5 @@
+Key,English
+weaponRackPlayer,Weapon Rack
+weaponRackGreyPlayer,Weapon Rack (Grey)
+weaponRackPlayerHelper,Weapon Rack
+weaponRackPlayerDesc,Weapon racks display the weapons stored inside.

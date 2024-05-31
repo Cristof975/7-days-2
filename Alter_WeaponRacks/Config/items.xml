@@ -1,0 +1,355 @@
+<configs>
+	<append xpath="/items/item[@name='gunHandgunT0PipePistol']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XXX,XOO"/>
+		<property name="DisplayMeshOffset" value="-0.1351, -0.0517, 0"/>
+		<property name="DisplayMeshScale" value="0.97"/>
+	</append>
+	<append xpath="/items/item[@name='gunHandgunT1Pistol']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XXX,XOO"/>
+		<property name="DisplayMeshOffset" value="-0.1602, -0.109, 0"/>
+	</append>
+	<append xpath="/items/item[@name='gunHandgunT2Magnum44']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XXX,XOO"/>
+		<property name="DisplayMeshOffset" value="-0.056, -0.1298, 0"/>
+		<property name="DisplayMeshScale" value="0.95"/>
+	</append>
+	<append xpath="/items/item[@name='gunHandgunT3SMG5']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XXXXX,OXXXO"/>
+		<property name="DisplayMeshOffset" value="-0.4287, -0.113, 0"/>
+		<property name="DisplayMeshScale" value="0.9"/>
+	</append>
+	<append xpath="/items/item[@name='gunHandgunT3DesertVulture']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XXX,XOO"/>
+		<property name="DisplayMeshOffset" value="-0.1424, -0.1079, 0"/>
+	</append>
+	<append xpath="/items/item[@name='gunShotgunT0PipeShotgun']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XXXXXXXX,XXXOOOOO"/>
+		<property name="DisplayMeshOffset" value="-0.418, -0.101, 0"/>
+		<property name="DisplayMeshScale" value="0.94"/>
+	</append>
+	<append xpath="/items/item[@name='gunShotgunT1DoubleBarrel']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XXXX,XOOO"/>
+		<property name="DisplayMeshOffset" value="-0.065, -0.11, 0"/>
+	</append>
+	<append xpath="/items/item[@name='gunShotgunT2PumpShotgun']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XXXXXXXX,XXOOOOOO"/>
+		<property name="DisplayMeshOffset" value="-0.579, -0.088, 0"/>
+		<property name="DisplayMeshScale" value="0.95"/>
+	</append>
+	<append xpath="/items/item[@name='gunShotgunT3AutoShotgun']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XXXXXX,XXXXXO,OOOXXO"/>
+		<property name="DisplayMeshOffset" value="-0.255, -0.138, 0"/>
+		<property name="DisplayMeshScale" value="0.93"/>
+	</append>
+	<append xpath="/items/item[@name='gunRifleT0PipeRifle']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XXXXXXXXX,XXOOOOOOO"/>
+		<property name="DisplayMeshOffset" value="-0.557, -0.126, 0"/>
+		<property name="DisplayMeshScale" value="0.95"/>
+	</append>
+	<append xpath="/items/item[@name='gunRifleT1HuntingRifle']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XXXXXXXXXX,XXXOOOOOOO"/>
+		<property name="DisplayMeshOffset" value="-0.321, -0.129, 0"/>
+		<property name="DisplayMeshScale" value="0.955"/>
+	</append>
+	<append xpath="/items/item[@name='gunRifleT2LeverActionRifle']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XXXXXXXX,XXXOOOOO"/>
+		<property name="DisplayMeshOffset" value="-0.424, -0.097, 0"/>
+		<property name="DisplayMeshScale" value="0.95"/>
+	</append>
+	<append xpath="/items/item[@name='gunRifleT3SniperRifle']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XXXXXXXXX,XXXXXOOOO"/>
+		<property name="DisplayMeshOffset" value="-0.374, -0.109, 0"/>
+		<property name="DisplayMeshScale" value="0.95"/>
+	</append>
+	<append xpath="/items/item[@name='gunMGT0PipeMachineGun']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XXXXXXX,XXXXOOO"/>
+		<property name="DisplayMeshOffset" value="-0.321, -0.128, 0"/>
+		<property name="DisplayMeshScale" value="0.93"/>
+	</append>
+	<append xpath="/items/item[@name='gunMGT1AK47']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XXXXXXXXX,OOXXXOOOO,OOOOXOOOO"/>
+		<property name="DisplayMeshOffset" value="-0.552, -0.11, 0"/>
+		<property name="DisplayMeshScale" value="0.97"/>
+	</append>
+	<append xpath="/items/item[@name='gunMGT2TacticalAR']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XXXXXXX,XXXOOOO"/>
+		<property name="DisplayMeshOffset" value="-0.363, -0.126, 0"/>
+		<property name="DisplayMeshScale" value="0.94"/>
+	</append>
+	<append xpath="/items/item[@name='gunMGT3M60']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XXXXXXXXXX,OOXXOOOOOO"/>
+		<property name="DisplayMeshOffset" value="-0.485, -0.122, 0"/>
+		<property name="DisplayMeshScale" value="0.97"/>
+	</append>
+	<append xpath="/items/item[@name='gunExplosivesT3RocketLauncher']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XXXXXXXXX,XXXXXXXXX,OOOOOXXOO"/>
+		<property name="DisplayMeshOffset" value="-0.588, -0.132, 0"/>
+		<property name="DisplayMeshScale" value="0.98"/>
+	</append>
+	<append xpath="/items/item[@name='gunBowT0PrimitiveBow']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XO,XO,XX,XX,XX,XX,XO,XO"/>
+		<property name="DisplayMeshOffset" value="-0.148, -0.489, 0"/>
+		<property name="DisplayMeshScale" value="0.63"/>
+	</append>
+	<append xpath="/items/item[@name='gunBowT1WoodenBow']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XO,XX,XX,XX,XX,XX,XX,XO"/>
+		<property name="DisplayMeshOffset" value="-0.133, -0.49, 0"/>
+		<property name="DisplayMeshScale" value="0.54"/>
+	</append>
+	<append xpath="/items/item[@name='gunBowT3CompoundBow']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XX,XX,XX,XX,XX,XX"/>
+		<property name="DisplayMeshOffset" value="-0.156, -0.49, 0"/>
+		<property name="DisplayMeshScale" value="0.67"/>
+	</append>
+	<append xpath="/items/item[@name='gunBowT1IronCrossbow']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XXXXXXXX,XOOOOOOO"/>
+		<property name="DisplayMeshOffset" value="-0.407, -0.08, 0.04"/>
+		<property name="DisplayMeshScale" value="0.94"/>
+		<property name="AnimatorOverride" value="#@modfolder:Resources/resources2.unity3d?ironCrossBowPrefab"/>
+	</append>
+	<append xpath="/items/item[@name='gunBowT3CompoundCrossbow']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XXXXXXX,XXXOOOO"/>
+		<property name="DisplayMeshOffset" value="-0.317, -0.101, 0.04"/>
+		<property name="DisplayMeshScale" value="0.93"/>
+		<property name="AnimatorOverride" value="#@modfolder:Resources/resources2.unity3d?advancedCompoundCrossbowPrefab"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnSledgeT0StoneSledgehammer']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XX,XX,XX,XX,XX"/>
+		<property name="DisplayMeshOffset" value="-0.116, -0.291, 0"/>
+		<property name="DisplayMeshScale" value="0.54"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnSledgeT1IronSledgehammer']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XX,XX,XX,XX,XX,XX"/>
+		<property name="DisplayMeshOffset" value="-0.12, -0.312, 0"/>
+		<property name="DisplayMeshScale" value="0.68"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnSledgeT3SteelSledgehammer']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XXX,OXO,OXO,OXO,OXO,OXO"/>
+		<property name="DisplayMeshOffset" value="-0.17709, -0.289, 0"/>
+		<property name="DisplayMeshScale" value="0.62"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolRepairT3Nailgun']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XX,XX,XX"/>
+		<property name="DisplayMeshOffset" value="-0.13, -0.169, 0"/>
+		<property name="DisplayMeshScale" value="1.54"/>
+		<property name="DisplayMeshRotation" value="-90, 0, 0"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolShovelT0StoneShovel']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XX,XX,XO,XO,XO,XO,XO,XO"/>
+		<property name="DisplayMeshOffset" value="-0.093, -0.678, 0"/>
+		<property name="DisplayMeshScale" value="0.77"/>
+		<property name="DisplayMeshRotation" value="0, 0, 0"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolShovelT1IronShovel']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XX,XX,XO,XO,XO,XO,XO,XO"/>
+		<property name="DisplayMeshOffset" value="-0.096, -0.655, 0"/>
+		<property name="DisplayMeshScale" value="0.77"/>
+		<property name="DisplayMeshRotation" value="0, 0, 0"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolShovelT2SteelShovel']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XX,XX,XO,XO,XO,XO,XO,XO"/>
+		<property name="DisplayMeshOffset" value="-0.095, -0.658, 0"/>
+		<property name="DisplayMeshScale" value="0.76"/>
+		<property name="DisplayMeshRotation" value="0, 0, 0"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolRepairT0StoneAxe']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XX,XO,XO,XO"/>
+		<property name="DisplayMeshOffset" value="-0.086401, -0.328, 0"/>
+		<property name="DisplayMeshScale" value="0.64"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolAxeT1IronFireaxe']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XXX,OXO,OXO,OXO,OXO,OXO,OXO"/>
+		<property name="DisplayMeshOffset" value="-0.17905, -0.296, 0"/>
+		<property name="DisplayMeshScale" value="0.77"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolAxeT2SteelAxe']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XX,XX,XX,OX,OX,OX,OX"/>
+		<property name="DisplayMeshOffset" value="-0.1, -0.415, 0"/>
+		<property name="DisplayMeshScale" value="0.77"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolAxeT3Chainsaw']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="OXXOOOO,XXXXXXX,XXXXXXX"/>
+		<property name="DisplayMeshOffset" value="-0.203, -0.195, 0"/>
+		<property name="DisplayMeshScale" value="0.91"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnClubT0WoodenClub']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="X,X,X"/>
+		<property name="DisplayMeshOffset" value="-0.061047, -0.3343, 0"/>
+		<property name="DisplayMeshScale" value="0.58"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnClubT1BaseballBat']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="X,X,X,X,X"/>
+		<property name="DisplayMeshOffset" value="-0.067007, -0.52, 0"/>
+		<property name="DisplayMeshScale" value="0.75"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnClubT3SteelClub']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="X,X,X,X"/>
+		<property name="DisplayMeshOffset" value="-0.061, -0.3952, 0"/>
+		<property name="DisplayMeshScale" value="0.64"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnBladeT0BoneKnife']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="X,X"/>
+		<property name="DisplayMeshOffset" value="-0.061235, -0.1756, 0"/>
+		<property name="DisplayMeshScale" value="0.55"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnBladeT1HuntingKnife']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="X,X"/>
+		<property name="DisplayMeshOffset" value="-0.046399, -0.1926, 0"/>
+		<property name="DisplayMeshScale" value="0.65"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnBladeT3Machete']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="X,X,X"/>
+		<property name="DisplayMeshOffset" value="-0.045349, -0.3115, 0"/>
+		<property name="DisplayMeshScale" value="0.73"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnKnucklesT0LeatherKnuckles']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="X"/>
+		<property name="DisplayMeshOffset" value="-0.082858, -0.0374, 0"/>
+		<property name="DisplayMeshScale" value="0.78"/>
+		<property name="DisplayMeshRotation" value="0, 0, 38.134"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnKnucklesT1IronKnuckles']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="X"/>
+		<property name="DisplayMeshOffset" value="-0.08575934, -0.04811701, 0"/>
+		<property name="DisplayMeshScale" value="0.9"/>
+		<property name="DisplayMeshRotation" value="19.387, -10.251, 0.645"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnKnucklesT3SteelKnuckles']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="X"/>
+		<property name="DisplayMeshOffset" value="-0.061, -0.063, 0"/>
+		<property name="DisplayMeshScale" value="0.9"/>
+		<property name="DisplayMeshRotation" value="19.387, -10.251, 0.645"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolPickT1IronPickaxe']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XXX,XOO,XOO,XOO,XOO"/>
+		<property name="DisplayMeshOffset" value="-0.073, -0.389, 0"/>
+		<property name="DisplayMeshScale" value="0.8"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolPickT2SteelPickaxe']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XXXXX,OOXOO,OOXOO,OOXOO,OOXOO,OOXOO"/>
+		<property name="DisplayMeshOffset" value="-0.301, -0.304, 0"/>
+		<property name="DisplayMeshScale" value="0.79"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolPickT3Auger']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XXXX,XXXX,OXXO,OXXO,OXXO,OXXO,OXXO,OXXO"/>
+		<property name="DisplayMeshOffset" value="-0.243, -0.168, 0"/>
+		<property name="DisplayMeshScale" value="0.77"/>
+		<property name="DisplayMeshRotation" value="-270, 0, -180"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolSalvageT1Wrench']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="X,X,X,X"/>
+		<property name="DisplayMeshOffset" value="-0.047, -0.41, 0"/>
+		<property name="DisplayMeshScale" value="0.73"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolSalvageT2Ratchet']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="X,X,X"/>
+		<property name="DisplayMeshOffset" value="-0.021, -0.285, 0"/>
+		<property name="DisplayMeshScale" value="0.85"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolSalvageT3ImpactDriver']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XX,XX"/>
+		<property name="DisplayMeshOffset" value="-0.11, -0.2423, 0"/>
+		<property name="DisplayMeshScale" value="0.86"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnBatonT0PipeBaton']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XX,XX"/>
+		<property name="DisplayMeshOffset" value="-0.124, -0.34426, 0"/>
+		<property name="DisplayMeshScale" value="0.72"/>
+		<property name="DisplayMeshRotation" value="-90, 0, -270"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnBatonT2StunBaton']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="X,X,X,X"/>
+		<property name="DisplayMeshOffset" value="-0.047, -0.431, 0"/>
+		<property name="DisplayMeshScale" value="0.72"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnSpearT0StoneSpear']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="X,X,X,X,X,X,X,X"/>
+		<property name="DisplayMeshOffset" value="-0.061155, -0.722, 0"/>
+		<property name="DisplayMeshScale" value="0.57"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnSpearT1IronSpear']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="X,X,X,X,X,X,X,X"/>
+		<property name="DisplayMeshOffset" value="-0.057, -0.61176, 0"/>
+		<property name="DisplayMeshScale" value="0.48"/>
+	</append>
+	<append xpath="/items/item[@name='meleeWpnSpearT3SteelSpear']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="X,X,X,X,X,X,X,X"/>
+		<property name="DisplayMeshOffset" value="-0.062, -0.61676, 0"/>
+		<property name="DisplayMeshScale" value="0.48"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolPaintTool']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="X,X,X"/>
+		<property name="DisplayMeshOffset" value="-0.06, -0.278, 0"/>
+		<property name="DisplayMeshScale" value="0.73"/>
+		<property name="DisplayMeshRotation" value="-90, 0, -180"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolWireTool']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="XX,XX"/>
+		<property name="DisplayMeshOffset" value="-0.097, -0.137, 0"/>
+		<property name="DisplayMeshScale" value="0.92"/>
+		<property name="DisplayMeshRotation" value="119.735, -90, -270"/>
+		<property name="AnimatorOverride" value="#@modfolder:Resources/resources2.unity3d?wire_strippersPrefab"/>
+	</append>
+	<append xpath="/items/item[@name='meleeToolRepairT1ClawHammer']">
+		<property name="CanBePlacedOnRack" value="true"/>
+		<property name="DisplayGrid" value="X,X,X"/>
+		<property name="DisplayMeshOffset" value="-0.0534, -0.325, 0"/>
+		<property name="DisplayMeshScale" value="0.87"/>
+	</append>
+</configs>

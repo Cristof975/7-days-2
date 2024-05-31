@@ -1,0 +1,29 @@
+<configs>
+	<append xpath="/windows">
+		<window depth="-50" name="windowCompassHUD" controller="MinimapHUD, Minimap">
+				<texture pivot="center" name="mapViewParent" pos="0,0" width="54" height="54"/>				
+				<sprite pivot="center" name="scroll" color="0,0,0,1" on_scroll="true" width="300" height="300" globalopacity="true" globalopacitymod="0.5" />
+			    <panel name="mapView" disableautobackground="true" pos="-540,-390" depth="-15" controller="MapArea">
+				<texture pivot="center" name="mapViewTexture" pos="-5400,-3900" width="600" height="600" material="Materials/MaskableMainmap"/>
+				<panel depth="4" disableautobackground="true" width="310" pos="-960,0" name="Minimap"/>
+				<panel name="header" pos="99999,0">
+					<sprite name="windowIcon"/>
+					<button name="switchStaticMap"/>
+					<combobox name="cbxStaticMapType" type="ComboBoxEnum`1[XUiC_MapArea+EStaticMapOverlay]"/>
+					<panel name="content"/>
+					<rect name="toolbar"/>
+					<sprite name="backgroundMain"/>
+					<button name="playerIcon"/>
+					<label name="playerPos"/>
+					<button name="bedrollIcon"/>
+					<label name="bedrollPos"/>
+					<sprite name="cursorIcon"/>
+					<label name="cursorPos"/>
+					<button name="waypointIcon"/>
+					<label name="waypointDistance"/>
+					<panel name="clippingPanel"/>
+				</panel>
+			</panel>
+		</window>
+	</append>
+</configs>
